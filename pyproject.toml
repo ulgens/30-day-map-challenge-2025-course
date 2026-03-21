@@ -1,0 +1,35 @@
+[project]
+name = "30-day-map-challenge-2025-course-outputs"
+version = "0.1.0"
+description = "My outputs for '30-Day Map Challenge 2025' Udemy course by Milan Janosov"
+readme = "README.md"
+authors = [
+    { name = "Ülgen Sarıkavak", email = "foss@ulgenwanders.net" },
+]
+requires-python = "==3.14.*"
+classifiers = [
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.14",
+]
+dependencies = []
+
+[dependency-groups]
+dev = [
+    # TODO:
+    #   Find a way to define the following in this file:
+    #   PYTHONBREAKPOINT = "ipdb.set_trace"
+    "ipdb==0.13.13",
+    "ipython==9.11.0",
+    "pytest==9.0.2",
+    "pytest-randomly==4.0.1",
+    "pytest-xdist==3.8.0",
+]
+
+[tool.uv]
+# The earliest version that supports the current lock file revision
+required-version = ">=0.8.4"
+package = false
+
+[tool.pyproject-fmt]
+indent = 4
+keep_full_version = true

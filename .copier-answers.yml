@@ -1,0 +1,13 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: 8259fdc
+_src_path: gh:ulgens/python-anything
+author_email: foss@ulgenwanders.net
+author_name: Ülgen Sarıkavak
+frameworks: []
+github_username: ulgens
+license: MIT
+project_description: "My outputs for '30-Day Map Challenge 2025' Udemy course by Milan Janosov"
+project_name: 30-Day Map Challenge 2025 Course Outputs
+python_version: "3.14"
+use_codecov: false
+use_ty: false

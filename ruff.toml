@@ -99,6 +99,12 @@ ignore = [
     # Line lengths are checked & managed by ruff, don't need to check again.
     # https://docs.astral.sh/ruff/rules/line-too-long/
     "E501",
+    # It's okay to have a commented-out code in a tutorial repo.
+    # https://docs.astral.sh/ruff/rules/commented-out-code/
+    "ERA001",
+    # It's okay to use "print" in a tutorial repo.
+    # https://docs.astral.sh/ruff/rules/print/
+    "T201",
     # Absolute imports are not always better than relative imports.
     # https://docs.astral.sh/ruff/rules/relative-imports/
     "TID252",

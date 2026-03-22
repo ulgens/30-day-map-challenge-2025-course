@@ -1,3 +1,3 @@
-* The content doesn't do much about explaining the library internals. I hope this will get better in the following lessons.
-* Not-notebook based dev requires save - run - refresh cycle every time to see the latest result. This is getting boring pretty fast, may need to find some sort file watcher solution.
-* Exported map file is bigger than I expected (774K) I am not sure about adding this to git (LFS?), will be revisited later.
+* The content does not explain the library internals in much detail. I hope this will improve in the following lessons.
+* Non-notebook-based development requires a save–run–refresh cycle every time to see the latest result. This is getting boring fairly quickly; I may need to find some sort of file-watcher solution.
+* The exported map file is larger than I expected (774 KB). I am not sure about adding this to Git (maybe via LFS); I will revisit this later.

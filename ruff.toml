@@ -27,9 +27,6 @@ select = [
     # https://docs.astral.sh/ruff/rules/#flake8-errmsg-em
     # https://github.com/henryiii/flake8-errmsg
     "EM",
-    # https://docs.astral.sh/ruff/rules/#eradicate-era
-    # https://github.com/PyCQA/eradicate
-    "ERA",
     # https://docs.astral.sh/ruff/rules/#flake8-executable-exe
     # https://github.com/xuhdev/flake8-executable
     "EXE",
@@ -99,9 +96,6 @@ ignore = [
     # Line lengths are checked & managed by ruff, don't need to check again.
     # https://docs.astral.sh/ruff/rules/line-too-long/
     "E501",
-    # It's okay to have a commented-out code in a tutorial repo.
-    # https://docs.astral.sh/ruff/rules/commented-out-code/
-    "ERA001",
     # It's okay to use "print" in a tutorial repo.
     # https://docs.astral.sh/ruff/rules/print/
     "T201",

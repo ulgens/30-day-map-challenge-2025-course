@@ -1,7 +1,11 @@
+from pathlib import Path
+
 import folium
 import osmnx as ox
 
 # from matplotlib import pyplot as plt
+
+day_root = Path(__file__).parent
 
 
 def to_point(gdf):
@@ -102,4 +106,4 @@ folium.LayerControl(
 if fit_bounds:
     m.fit_bounds(fit_bounds)
 
-m.save("map.html")
+m.save(day_root / "map.html")

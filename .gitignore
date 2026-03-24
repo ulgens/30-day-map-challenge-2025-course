@@ -177,3 +177,7 @@ cython_debug/
 
 # OSM
 cache/
+
+# Data files
+# TODO:
+**/data/**/*.geojson

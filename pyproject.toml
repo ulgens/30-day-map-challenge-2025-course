@@ -26,7 +26,7 @@ dev = [
     #   PYTHONBREAKPOINT = "ipdb.set_trace"
     "ipdb==0.13.13",
     "ipython==9.11.0",
-    "pytest==9.0.2",
+    "pytest==9.0.3",
     "pytest-randomly==4.0.1",
     "pytest-xdist==3.8.0",
 ]
